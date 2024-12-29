@@ -10,3 +10,8 @@ export const validateUpdateTask = [
 export const validateDeleteTask = [param("id").isMongoId().withMessage("Invalid ID")];
 
 export const validateGetTaskById = [param("id").isMongoId().withMessage("Invalid ID")];
+
+export const validateUpdateStatus = [
+  param("id").isMongoId().withMessage("Invalid ID"),
+  body("status").isBoolean().withMessage("Status must be a boolean value"),
+];

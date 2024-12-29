@@ -5,19 +5,23 @@ export class TaskRepository {
     return await TaskModel.create(data);
   }
 
-  static async getAll() {
-    return await TaskModel.find();
+  static async getAll(userId) {
+    return await TaskModel.find({ user: userId });
   }
 
-  static async getById(id) {
-    return await TaskModel.findById(id);
+  static async getById(userId, taskId) {
+    return await TaskModel.findOne({ _id: taskId, user: userId });
   }
 
-  static async update(id, updateFields) {
-    return await TaskModel.findByIdAndUpdate(id, updateFields, { new: true });
+  static async update(userId, taskId, updateFields) {
+    return await TaskModel.findOneAndUpdate({ _id: taskId, user: userId }, updateFields, { new: true });
   }
 
-  static async delete(id) {
-    return await TaskModel.findByIdAndDelete(id);
+  static async delete(userId, taskId) {
+    return await TaskModel.findOneAndDelete({ _id: taskId, user: userId });
+  }
+
+  static async updateStatus(userId, taskId, status) {
+    return await TaskModel.findOneAndUpdate({ _id: taskId, user: userId }, { status }, { new: true });
   }
 }
