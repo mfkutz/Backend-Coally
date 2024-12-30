@@ -1,0 +1,195 @@
+paths:
+  /api/tasks:
+    post:
+      summary: Create a new task.
+      tags:
+        - Tasks
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  description: The title of the task.
+                  example: "Finish documentation"
+                description:
+                  type: string
+                  description: A detailed description of the task.
+                  example: "Document the API endpoints for the task management system."
+                status:
+                  type: boolean
+                  description: The current status of the task (default is false for incomplete).
+                  example: false
+              required:
+                - title
+      responses:
+        "201":
+          description: Successfully created the task.
+        "400":
+          description: Invalid input or missing required fields.
+        "500":
+          description: Internal server error.
+
+    get:
+      summary: Get all tasks.
+      tags:
+        - Tasks
+      responses:
+        "200":
+          description: Successfully retrieved all tasks.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Task"
+        "500":
+          description: Internal server error.
+
+  /api/tasks/{id}:
+    get:
+      summary: Get a task by ID.
+      tags:
+        - Tasks
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            description: The ID of the task to retrieve.
+      responses:
+        "200":
+          description: Successfully retrieved the task.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Task"
+        "404":
+          description: Task not found.
+        "500":
+          description: Internal server error.
+
+    put:
+      summary: Update a task by ID.
+      tags:
+        - Tasks
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            description: The ID of the task to update.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  description: The title of the task.
+                description:
+                  type: string
+                  description: The description of the task.
+                status:
+                  type: boolean
+                  description: The status of the task.
+      responses:
+        "200":
+          description: Successfully updated the task.
+        "400":
+          description: Invalid input.
+        "404":
+          description: Task not found.
+        "500":
+          description: Internal server error.
+
+    delete:
+      summary: Delete a task by ID.
+      tags:
+        - Tasks
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            description: The ID of the task to delete.
+      responses:
+        "200":
+          description: Successfully deleted the task.
+        "404":
+          description: Task not found.
+        "500":
+          description: Internal server error.
+
+  /api/tasks/{id}/status:
+    put:
+      summary: Update the status of a task by ID.
+      tags:
+        - Tasks
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            description: The ID of the task to update.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                status:
+                  type: boolean
+                  description: The new status of the task (true for completed, false for pending).
+                  example: true
+      responses:
+        "200":
+          description: Successfully updated the task status.
+        "400":
+          description: Invalid status value.
+        "404":
+          description: Task not found.
+        "500":
+          description: Internal server error.
+
+components:
+  schemas:
+    Task:
+      type: object
+      properties:
+        _id:
+          type: string
+          description: Unique ID of the task (ObjectId).
+        title:
+          type: string
+          description: The title of the task.
+          example: "Finish documentation"
+        description:
+          type: string
+          description: Detailed description of the task.
+          example: "Document the API endpoints for the task management system."
+        status:
+          type: boolean
+          description: The current status of the task (false = pending, true = completed).
+          example: false
+        user:
+          type: string
+          description: The ID of the user assigned to the task (ObjectId).
+        createdAt:
+          type: string
+          format: date-time
+          description: The date and time when the task was created.
+        updatedAt:
+          type: string
+          format: date-time
+          description: The date and time when the task was last updated.

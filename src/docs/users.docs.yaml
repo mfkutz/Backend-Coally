@@ -1,0 +1,206 @@
+paths:
+  /api/user/create-account:
+    post:
+      summary: Create a new user account.
+      tags:
+        - Users
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: Full name of the user.
+                  example: John Doe
+                email:
+                  type: string
+                  format: email
+                  description: Unique email address of the user.
+                  example: john.doe@example.com
+                password:
+                  type: string
+                  description: Password for the user account.
+                  example: password123
+              required:
+                - name
+                - email
+                - password
+      responses:
+        "201":
+          description: User account successfully created.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "400":
+          description: Invalid input data.
+        "500":
+          description: Internal server error.
+
+  /api/user/{id}:
+    get:
+      summary: Retrieve a user by their ID.
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            description: Unique ID of the user (ObjectId).
+      responses:
+        "200":
+          description: Successfully retrieved the user.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "404":
+          description: User not found.
+        "500":
+          description: Internal server error.
+
+    put:
+      summary: Update a user by their ID.
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            description: Unique ID of the user (ObjectId).
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: Updated full name of the user.
+                email:
+                  type: string
+                  format: email
+                  description: Updated email address.
+                password:
+                  type: string
+                  description: Updated password.
+                tasks:
+                  type: array
+                  items:
+                    type: string
+                    description: List of task IDs associated with the user.
+              example:
+                name: Jane Doe
+                email: jane.doe@example.com
+                password: newpassword123
+                tasks:
+                  - "672ca16702ceb4403aaf7d8b"
+      responses:
+        "200":
+          description: User successfully updated.
+        "404":
+          description: User not found.
+        "500":
+          description: Internal server error.
+
+    delete:
+      summary: Delete a user by their ID.
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            description: Unique ID of the user (ObjectId).
+      responses:
+        "200":
+          description: User successfully deleted.
+        "404":
+          description: User not found.
+        "500":
+          description: Internal server error.
+
+  /api/user/:
+    get:
+      summary: Retrieve all registered users.
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Successfully retrieved all users.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/User"
+        "500":
+          description: Internal server error.
+
+components:
+  securitySchemes:
+    AdminAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: JWT token must be provided for authentication and authorization as an admin.
+
+  schemas:
+    User:
+      type: object
+      properties:
+        _id:
+          type: string
+          description: Unique ID of the user (ObjectId).
+        name:
+          type: string
+          description: User's full name.
+          example: "John Doe"
+        email:
+          type: string
+          description: User's unique email address.
+          format: email
+          example: "user@example.com"
+        password:
+          type: string
+          description: Encrypted password (bcrypt).
+          example: "$2b$10$18nU70I6FvKVBF9c/d2CeuBo8af6V6Ozzf19RB.NvuW0vW.SYiIzS"
+        tasks:
+          type: array
+          description: List of tasks associated with the user.
+          items:
+            type: string
+            description: Task ID (ObjectId).
+          example:
+            - "672ca16702ceb4403aaf7d8b"
+            - "672ca16702ceb4403aaf7d8c"
+        createdAt:
+          type: string
+          format: date-time
+          description: Date and time when the user was created.
+          example: "2024-11-07T11:15:51.224Z"
+        updatedAt:
+          type: string
+          format: date-time
+          description: Date and time when the user was last updated.
+          example: "2025-03-07T15:15:51.224Z"
+      example:
+        _id: "672ca16702ceb4403aaf7d8a"
+        name: "John Doe"
+        email: "user@example.com"
+        password: "$2b$10$18nU70I6FvKVBF9c/d2CeuBo8af6V6Ozzf19RB.NvuW0vW.SYiIzS"
+        tasks:
+          - "672ca16702ceb4403aaf7d8b"
+          - "672ca16702ceb4403aaf7d8c"
+        createdAt: "2024-11-07T11:15:51.224Z"
+        updatedAt: "2025-03-07T15:15:51.224Z"

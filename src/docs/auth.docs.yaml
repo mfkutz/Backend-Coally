@@ -1,0 +1,97 @@
+paths:
+  /api/auth/login:
+    post:
+      summary: Log in a user and return a JWT token.
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  format: email
+                  description: User's email.
+                  example: "john.doe@example.com"
+                password:
+                  type: string
+                  description: User's password.
+                  example: "password123"
+              required:
+                - email
+                - password
+      responses:
+        "200":
+          description: Successfully logged in and token returned.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                    description: JWT token to access protected routes.
+                    example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+        "400":
+          description: Invalid input or incorrect credentials.
+        "500":
+          description: Internal server error.
+
+  /api/auth/current:
+    get:
+      summary: Retrieve the current authenticated user.
+      tags:
+        - Authentication
+      responses:
+        "200":
+          description: Successfully retrieved the current user.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "401":
+          description: Unauthorized (user not authenticated).
+        "500":
+          description: Internal server error.
+
+components:
+  securitySchemes:
+    AdminAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: JWT token must be provided for authentication.
+
+  schemas:
+    User:
+      type: object
+      properties:
+        _id:
+          type: string
+          description: Unique ID of the user (ObjectId).
+        name:
+          type: string
+          description: User's full name.
+          example: "John Doe"
+        email:
+          type: string
+          description: User's unique email address.
+          format: email
+          example: "user@example.com"
+        tasks:
+          type: array
+          description: List of tasks associated with the user.
+          items:
+            type: string
+            description: Task ID (ObjectId).
+        createdAt:
+          type: string
+          format: date-time
+          description: Date and time when the user was created.
+        updatedAt:
+          type: string
+          format: date-time
+          description: Date and time when the user was last updated.

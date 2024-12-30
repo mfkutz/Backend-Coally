@@ -47,3 +47,7 @@
 [31mfatal[39m: DELETE /api/tasks/6772289eb83bb173c71a05d2 - USERMODEL IS NOT DEFINED {"timestamp":"2024-12-30T04:59:23.158Z"}
 [33merror[39m: DELETE /api/tasks/6772289eb83bb173c71a05d2 - TASK NOT FOUND OR NOT AUTHORIZED TO DELETE {"timestamp":"2024-12-30T05:00:12.891Z"}
 [33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-30T11:09:14.097Z"}
+[31mfatal[39m: GET /api/docs - CORS ERROR {"timestamp":"2024-12-30T15:36:17.947Z"}
+[31mfatal[39m: GET /favicon.ico - CORS ERROR {"timestamp":"2024-12-30T15:36:18.490Z"}
+[31mfatal[39m: POST /api/user/create-account - CORS ERROR {"timestamp":"2024-12-30T16:00:09.275Z"}
+[31mfatal[39m: POST /api/tasks - CORS ERROR {"timestamp":"2024-12-30T16:13:59.715Z"}

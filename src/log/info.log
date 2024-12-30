@@ -98,3 +98,55 @@
 [34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T14:14:28.923Z"}
 [34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T14:14:32.754Z"}
 [34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T14:14:33.570Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T14:40:37.171Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T14:40:38.201Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:32:27.019Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:32:28.009Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:33:42.386Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:33:43.621Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:35:16.671Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:35:18.105Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:35:31.353Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:35:32.167Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:36:01.075Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:36:01.895Z"}
+[31mfatal[39m: GET /api/docs - CORS ERROR {"timestamp":"2024-12-30T15:36:17.947Z"}
+[31mfatal[39m: GET /favicon.ico - CORS ERROR {"timestamp":"2024-12-30T15:36:18.490Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:36:29.390Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:36:30.516Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:37:13.899Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:37:14.682Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:38:09.223Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:38:10.449Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:40:07.096Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:40:08.325Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:40:24.726Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:40:25.581Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:42:05.680Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:42:06.759Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:50:29.396Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:50:30.793Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:51:12.718Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:51:13.449Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:51:53.248Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:51:54.547Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T15:56:42.839Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T15:56:44.038Z"}
+[31mfatal[39m: POST /api/user/create-account - CORS ERROR {"timestamp":"2024-12-30T16:00:09.275Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T16:03:33.779Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T16:03:35.036Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T16:06:59.164Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T16:07:00.502Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T16:08:11.868Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T16:08:12.765Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T16:09:02.517Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T16:09:03.242Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T16:09:54.706Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T16:09:55.590Z"}
+[31mfatal[39m: POST /api/tasks - CORS ERROR {"timestamp":"2024-12-30T16:13:59.715Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T16:18:28.119Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T16:18:29.009Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T16:20:18.620Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T16:20:19.858Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T16:22:41.975Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T16:22:43.333Z"}
