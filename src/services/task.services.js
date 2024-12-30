@@ -15,7 +15,9 @@ export class TaskService {
 
   static async getAllTasks(userId) {
     const tasks = await TaskRepository.getAll(userId);
-    if (!tasks || tasks.length === 0) return CustomError.newError(errors.notFound, "No tasks found");
+    if (!tasks) {
+      return [];
+    }
     return tasks;
   }
 

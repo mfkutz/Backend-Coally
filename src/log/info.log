@@ -1,2 +1,100 @@
 [34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T15:19:00.554Z"}
 [34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T15:19:01.957Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T17:06:08.500Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T17:06:09.523Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:06:47.439Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:24:22.548Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T17:25:57.257Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T17:25:58.324Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:26:00.811Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T17:26:20.564Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T17:26:21.302Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:26:23.816Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:27:12.745Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:27:30.465Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:28:09.550Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:28:50.855Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T17:29:16.883Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T17:29:17.682Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:29:19.031Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T17:30:12.916Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T17:30:13.780Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:30:15.403Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T17:30:19.798Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T17:30:20.721Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T17:30:37.302Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T17:30:38.041Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:30:42.294Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T17:31:00.740Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T17:31:01.576Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:35:20.044Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:35:27.161Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:36:17.588Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:36:33.758Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:37:36.682Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:40:43.294Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T17:54:56.974Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T17:55:30.690Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T17:57:34.251Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T17:59:23.118Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:08:37.798Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:09:56.878Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:12:07.868Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:27:36.048Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T18:40:02.899Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T18:40:03.842Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T18:41:10.819Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T18:41:12.199Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T18:41:14.242Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T18:41:15.288Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T18:41:31.588Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T18:41:32.508Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T18:41:49.491Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T18:41:50.255Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T18:42:00.557Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T18:42:01.361Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T18:42:19.241Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T18:42:20.118Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:43:13.891Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:48:25.525Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:06:12.550Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:06:30.873Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:09:18.382Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:09:23.082Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:25:41.688Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:25:45.444Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:29:27.000Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T19:53:48.774Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T19:53:49.771Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:56:15.030Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T23:08:36.824Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T23:08:54.459Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T23:08:57.494Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:32:02.171Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:32:10.142Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:32:22.502Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:34:59.378Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:36:45.006Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:36:57.608Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:37:02.040Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-29T23:40:16.437Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-29T23:40:17.431Z"}
+[33merror[39m: PUT /api/tasks/6771e7c46d4999d09a0ab9a7 - TASK NOT FOUND OR NOT AUTHORIZED TO UPDATE {"timestamp":"2024-12-30T03:35:02.863Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T04:54:48.314Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-02.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T04:54:49.359Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T04:55:07.078Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T04:55:07.815Z"}
+[31mfatal[39m: DELETE /api/tasks/6772289eb83bb173c71a05d2 - USERMODEL IS NOT DEFINED {"timestamp":"2024-12-30T04:59:23.158Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T05:00:06.032Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T05:00:07.095Z"}
+[33merror[39m: DELETE /api/tasks/6772289eb83bb173c71a05d2 - TASK NOT FOUND OR NOT AUTHORIZED TO DELETE {"timestamp":"2024-12-30T05:00:12.891Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T05:01:37.670Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T05:01:38.757Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T11:06:38.129Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-01.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T11:06:39.190Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T11:07:14.184Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T11:07:14.978Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-30T11:09:14.097Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T14:14:28.923Z"}
+[34minfo[39m: Server online PORT:4000 {"timestamp":"2024-12-30T14:14:32.754Z"}
+[34minfo[39m: MongoDB Connected to: cluster0-shard-00-00.mgt38.mongodb.net:27017 {"timestamp":"2024-12-30T14:14:33.570Z"}

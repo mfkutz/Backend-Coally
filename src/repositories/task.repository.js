@@ -1,4 +1,5 @@
 import { TaskModel } from "../models/tasks.model.js";
+import { UserModel } from "../models/user.model.js";
 
 export class TaskRepository {
   static async create(data) {
@@ -18,7 +19,11 @@ export class TaskRepository {
   }
 
   static async delete(userId, taskId) {
-    return await TaskModel.findOneAndDelete({ _id: taskId, user: userId });
+    const task = await TaskModel.findOneAndDelete({ _id: taskId, user: userId });
+    if (task) {
+      await UserModel.updateOne({ _id: userId }, { $pull: { tasks: taskId } });
+    }
+    return task;
   }
 
   static async updateStatus(userId, taskId, status) {

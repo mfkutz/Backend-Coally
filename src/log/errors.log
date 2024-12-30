@@ -1,0 +1,49 @@
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:06:47.439Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:24:22.548Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:26:00.811Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:26:23.816Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:27:12.745Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:27:30.465Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:28:09.550Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:28:50.855Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:29:19.031Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:30:15.403Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:30:42.294Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:35:20.044Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:35:27.161Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:36:17.588Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:36:33.758Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:37:36.682Z"}
+[33merror[39m: POST /api/user/create-account - USER ALREADY EXISTS {"timestamp":"2024-12-29T17:40:43.294Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T17:54:56.974Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T17:55:30.690Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T17:57:34.251Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T17:59:23.118Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:08:37.798Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:09:56.878Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:12:07.868Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:27:36.048Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:43:13.891Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T18:48:25.525Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:06:12.550Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:06:30.873Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:09:18.382Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:09:23.082Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:25:41.688Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:25:45.444Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:29:27.000Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T19:56:15.030Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T23:08:36.824Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T23:08:54.459Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-29T23:08:57.494Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:32:02.171Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:32:10.142Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:32:22.502Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:34:59.378Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:36:45.006Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:36:57.608Z"}
+[33merror[39m: GET /api/tasks - NO TASKS FOUND {"timestamp":"2024-12-29T23:37:02.040Z"}
+[33merror[39m: PUT /api/tasks/6771e7c46d4999d09a0ab9a7 - TASK NOT FOUND OR NOT AUTHORIZED TO UPDATE {"timestamp":"2024-12-30T03:35:02.863Z"}
+[31mfatal[39m: DELETE /api/tasks/6772289eb83bb173c71a05d2 - USERMODEL IS NOT DEFINED {"timestamp":"2024-12-30T04:59:23.158Z"}
+[33merror[39m: DELETE /api/tasks/6772289eb83bb173c71a05d2 - TASK NOT FOUND OR NOT AUTHORIZED TO DELETE {"timestamp":"2024-12-30T05:00:12.891Z"}
+[33merror[39m: POST /api/auth/login - INVALID EMAIL OR PASSWORD {"timestamp":"2024-12-30T11:09:14.097Z"}

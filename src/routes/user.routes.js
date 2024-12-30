@@ -10,7 +10,7 @@ import {
 
 const router = Router();
 
-router.post("/", validateCreateUser, handleInputErrors, UserController.createUser);
+router.post("/create-account", validateCreateUser, handleInputErrors, UserController.createUser);
 router.get("/:id", validateGetUserById, handleInputErrors, UserController.getUserById);
 router.get("/", UserController.getAllUsers);
 router.put("/:id", validateUpdateUser, handleInputErrors, UserController.updateUserById);

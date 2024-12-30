@@ -10,4 +10,9 @@ export class AuthController {
       next(error);
     }
   }
+
+  static async current(req, res, next) {
+    res.json(req.recover_user);
+    return;
+  }
 }
