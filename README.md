@@ -25,21 +25,21 @@ Follow these steps to install the project locally:
    ```
 
 2. **Navigate to the Project Directory**  
-   Clone this repository to your local machine using the following command:
+   After cloning, navigate into the project directory:
 
    ```bash
    cd backend-project
    ```
 
 3. **Install Dependencies**  
-   Clone this repository to your local machine using the following command:
+   Install the project dependencies with the following command:
 
    ```bash
    npm install
    ```
 
 4. **Create a .env file**  
-   Clone this repository to your local machine using the following command:
+   Create a .env file based on the provided .env.example file. Make sure to add the necessary environment variables for your application to function properly.
 
    ```bash
    see the file .env.example
